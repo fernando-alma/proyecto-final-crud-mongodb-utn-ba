@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Productos</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <h1>Productos</h1>
+  <ul>
+    {{#each productos}}
+    <li>{{this.nombre}} - ${{this.precio}}</li>
+    {{/each}}
+  </ul>
+  <a href="/">Volver</a>
+</body>
+</html>

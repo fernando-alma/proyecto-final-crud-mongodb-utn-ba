@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Usuarios</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <h1>Usuarios</h1>
+  <ul>
+    {{#each usuarios}}
+    <li>{{this.nombre}} - {{this.email}}</li>
+    {{/each}}
+  </ul>
+  <a href="/">Volver</a>
+</body>
+</html>
